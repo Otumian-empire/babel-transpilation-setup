@@ -1,0 +1,19 @@
+{
+  "name": "babel-transpilation-setup",
+  "version": "1.0.0",
+  "description": "Making use of babel to transpile es6",
+  "main": "build/app.js",
+  "scripts": {
+    "build":"babel ./src --out-dir build",
+    "dev": "node build/app.js",
+    "start": "node build/app.js"
+  },
+  "type": "module",
+  "author": "otumian-empire@github.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2"
+  }
+}
