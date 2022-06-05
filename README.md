@@ -2,7 +2,7 @@
 
 ## Installation
 
-`npm i --save-dev @babel/core @babel/cli`
+`npm i --save-dev @babel/core @babel/cli @babel/preset-env`
 
 ## .babelrc
 
